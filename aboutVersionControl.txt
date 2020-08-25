@@ -1,6 +1,0 @@
-My repo 
-This is the main branch
-It is the first time creation of this file.
-So, the version is 1.
-
-Version control systems.
