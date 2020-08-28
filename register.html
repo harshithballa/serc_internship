@@ -8,19 +8,19 @@
   <body>
     <fieldset>
       <form class="register-form" action="success.html" method="post">
-        First Name: <input type="text" name="fname" placeholder="first name">  <br>
-        Last Name:<input type="text" name="lname" placeholder="last name">  <br>
-        Email: <input type="email" name="email" placeholder="example@xyz.com"> <br>
-        Password: <input type="password" name="password"> <br>
-        Phone NO: <input type="Phone" name="phone" placeholder="999999999">  <br>
-        Date of birth: <input type="date" name="dob"> <br>
-        Choice of Course: <br> <input type="radio" name="choice" value="masters"> Masters  <br> <input type="radio" name="choice" value="bachelors"> Bachelors <br>
-        Subjects of interest: <br> <input type="checkbox" name="elect"> Computer Networks <br> <input type="checkbox" name="elect"> Neural Netowrks <br>
+        First Name: <input type="text" name="fname" placeholder="first name" required>  <br>
+        Last Name:<input type="text" name="lname" placeholder="last name" required>  <br>
+        Email: <input type="email" name="email" placeholder="example@xyz.com" required> <br>
+        Password: <input type="password" name="password" required> <br>
+        Phone NO: <input type="Phone" name="phone" placeholder="999999999" required>  <br>
+        Date of birth: <input type="date" name="dob" required> <br>
+        Choice of Course: <br> <input type="radio" name="choice" value="masters" required> Masters  <br> <input type="radio" name="choice" value="bachelors"> Bachelors <br>
+        Subjects of interest: <br> <input type="checkbox" name="elect" required> Computer Networks <br> <input type="checkbox" name="elect"> Neural Netowrks <br>
           <input type="checkbox" name="elect"> Big data <br> <input type="checkbox" name="elect"> Cloud Computing <br>
           <input type="checkbox" name="elect"> Artificial Intelligence <br> <input type="checkbox" name="elect"> DBMS <br>
           <input type="checkbox" name="elect"> Quantum Computing <br> <input type="checkbox" name="elect"> Block Chains <br>
+        <textarea name="Description" rows="8" cols="80" required>  Description:</textarea> <br>
         <input type="submit" name="submit" value="Submit">
-        </select>
       </form>
     </fieldset>
 
