@@ -4,6 +4,12 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="present.css">
     <style media="screen">
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
     input[type="text"] {
             width: 30%;
             height: 20px;
@@ -30,10 +36,20 @@
         a:active {
         color: blue;
         }
+        .active {
+            background-color: #4CAF50;
+            color: white;
+          }
     </style>
     <title>register</title>
   </head>
   <body>
+      <ul>
+      <li><a href="default.asp">Home</a></li>
+      <li><a href="news.asp">University</a></li>
+      <li><a href="contact.asp">Contact</a></li>
+      <li><a href="about.asp">About</a></li>
+    </ul>
     <fieldset>
       <form class="register-form" action="success.html" method="post">
         <a href="https://google.com">ABC UNIVERSITY</a> <br>
