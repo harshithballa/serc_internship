@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>The multiline property returns true if the "m" modifier is set, otherwise it returns false.</p>
+<p>Click the button to check whether or not the "m" modifier is set.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var str = "Visit W3Schools!";
+  var patt1 = /W3S/gi;
+  var res = patt1.multiline;
+  document.getElementById("demo").innerHTML = res;
+}
+</script>
+
+</body>
+</html>
