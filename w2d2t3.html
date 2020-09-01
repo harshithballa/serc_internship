@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <input id="number">
+    <button onclick=eo()>EvenOdd</button>
+    <button onclick=fs()>Fibbinoci</button>
+    <script type="text/javascript">
+      function eo(){
+        let num = document.getElementById("number").value;
+        if (num % 2== 0){
+          document.write("Even");
+        } else{
+          document.write("Odd");
+        }
+      }
+
+      function fs(){
+        i = 0; fn=1; sn=1;
+        document.write(fn+" ");
+        document.write(sn+" ");
+        for (i=0; i<20; i++){
+          nn = fn+sn;
+          document.write(nn+" ");
+          fn = sn;
+          sn = nn;
+        }
+      }
+    </script>
+  </body>
+</html>
